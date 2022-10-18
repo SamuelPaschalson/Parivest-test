@@ -1,0 +1,237 @@
+.sidebar{
+    position: absolute;
+    width: 271px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    background: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 0px 8px;
+    gap: 8px;
+    position: absolute;
+    height: 38px;
+    left: 8.86%;
+    right: 9.23%;
+    top: calc(12% - 50px);
+}
+.parivest{
+    width: 143px;
+    height: 38px;
+    font-family: 'Nasalization';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.374px;
+    color: #295AA9;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 9.04%;
+    top: 16.87%;
+}
+.home span{
+    width: 44px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.user1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 8.86%;
+    top: 23.52%;
+    z-index: 3;
+}
+.user1 span{
+    width: 42px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;    
+    color: #295AA9;    
+}
+.active{
+    position: absolute;
+    left: 2.95%;
+    right: 94.1%;
+    top: 22.15%;
+    bottom: 71%;    
+    background: #295AA9;
+    border-radius: 8px 0px 0px 8px;
+    z-index: 3;
+}
+.active1{
+    position: absolute;
+    left: 2.95%;
+    right: 2.95%;
+    top: 22.15%;
+    bottom: 71%;
+    background: #E7EEF9;
+    border-radius: 8px;
+}
+.investment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 8.86%;
+    top: 31%;
+}
+.investment span{
+    width: 82px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.savings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 8.86%;
+    top: 37.62%;
+}
+.savings span{
+    width: 55px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.wallet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 8.86%;
+    top: 44.27%;
+}
+.wallet span{
+    width: 48px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 8.86%;
+    top: 50.62%;
+}
+.admin span{
+    width: 55px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.hr{
+    position: absolute;
+    left: 10.7%;
+    right: 8.86%;
+    top: 81.33%;
+    bottom: 19.67%;
+    border: 1px solid #C8CCD2;
+}
+.cpassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    left: 7.38%;
+    top: 86.67%;
+}
+.cpassword span{
+    width: 130px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    left: 7.38%;
+    top: 93.14%;
+}
+.logout span{
+    width: 51px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.374px;
+    color: #8C94A1;
+}
