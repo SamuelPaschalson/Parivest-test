@@ -1,7 +1,7 @@
 .sidebar{
     position: absolute;
     width: 271px;
-    height: 100vh;
+    height: 158vh;
     left: 0px;
     top: 0px;
     background-color: white;
@@ -17,7 +17,7 @@
     height: 38px;
     left: 8.86%;
     right: 9.23%;
-    top: calc(12% - 50px);
+    top: calc(7% - 50px);
 }
 .parivest{
     width: 143px;
@@ -39,7 +39,7 @@
     gap: 16px;
     position: absolute;
     left: 9.04%;
-    top: 16.87%;
+    top: 13.87%;
 }
 .home span{
     width: 44px;
@@ -61,7 +61,7 @@
     gap: 16px;
     position: absolute;
     left: 8.86%;
-    top: 23.52%;
+    top: 20.12%;
     z-index: 3;
 }
 .user1 span{
@@ -79,8 +79,8 @@
     position: absolute;
     left: 2.95%;
     right: 94.1%;
-    top: 22.15%;
-    bottom: 71%;    
+    top: 18.55%;
+    bottom: 75.98%;    
     background: #295AA9;
     border-radius: 8px 0px 0px 8px;
     z-index: 3;
@@ -89,8 +89,8 @@
     position: absolute;
     left: 2.95%;
     right: 2.95%;
-    top: 22.15%;
-    bottom: 71%;
+    top: 18.55%;
+    bottom: 75.98%; 
     background: #E7EEF9;
     border-radius: 8px;
 }
@@ -103,7 +103,7 @@
     gap: 16px;
     position: absolute;
     left: 8.86%;
-    top: 31%;
+    top: 26.37%;
 }
 .investment span{
     width: 82px;
@@ -125,7 +125,7 @@
     gap: 16px;
     position: absolute;
     left: 8.86%;
-    top: 37.62%;
+    top: 32.64%;
 }
 .savings span{
     width: 55px;
@@ -147,7 +147,7 @@
     gap: 16px;
     position: absolute;
     left: 8.86%;
-    top: 44.27%;
+    top: 38.87%;
 }
 .wallet span{
     width: 48px;
@@ -169,7 +169,7 @@
     gap: 16px;
     position: absolute;
     left: 8.86%;
-    top: 50.62%;
+    top: 45.12%;
 }
 .admin span{
     width: 55px;
